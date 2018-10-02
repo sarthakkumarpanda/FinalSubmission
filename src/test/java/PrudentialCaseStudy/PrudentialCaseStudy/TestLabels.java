@@ -35,7 +35,6 @@ public class TestLabels {
 	
 	@Test(priority=2)
 	public  void invalidCity() throws InterruptedException {
-		
 		driver.findElement(By.xpath("//*[@id='searchform']//input")).click();
 		driver.findElement(By.xpath("//*[@id='searchform']//input")).sendKeys("invalidCity");
 		driver.findElement(By.xpath("//*[@id='searchform']/button")).click();
@@ -46,7 +45,6 @@ public class TestLabels {
 	
 	@Test(priority=3)
 	public  void validCity() throws InterruptedException {
-		
 		driver.findElement(By.xpath("//*[@id='searchform']//input")).click();
 		driver.findElement(By.xpath("//*[@id='searchform']//input")).sendKeys("Bhubaneswar");
 		driver.findElement(By.xpath("//*[@id='searchform']/button")).click();
@@ -93,7 +91,6 @@ public class TestLabels {
 	
 	@Test(priority=1)
 	public void SignInPostSignUpDoneManually() {
-		
 		driver.findElement(By.linkText("Sign In")).click();
 		driver.findElement(By.xpath("//div[@class='input-group']/input[@type='email']")).sendKeys("sarthak.matrix@gmail.com");
 		driver.findElement(By.xpath("//*[@id='user_password']")).sendKeys("Test@123");
@@ -103,7 +100,6 @@ public class TestLabels {
 		
 	@Test(priority=0)
 	public void WrongCredentialsSignInPostSignUpDoneManually() {
-		
 		driver.findElement(By.linkText("Sign In")).click();
 		driver.findElement(By.xpath("//div[@class='input-group']/input[@type='email']")).sendKeys("sarthak.matrix@gmail.com");
 		driver.findElement(By.xpath("//*[@id='user_password']")).sendKeys("Hello@123");
