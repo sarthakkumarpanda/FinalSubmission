@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="160335" started-at="2018-10-02T05:13:53Z" finished-at="2018-10-02T05:16:33Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="160335" started-at="2018-10-02T05:13:53Z" finished-at="2018-10-02T05:16:33Z">
+      <class name="PrudentialCaseStudy.PrudentialCaseStudy.TestLabels">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:PrudentialCaseStudy.PrudentialCaseStudy.TestLabels@5792a0]" name="Setup" is-config="true" duration-ms="15396" started-at="2018-10-02T05:13:53Z" finished-at="2018-10-02T05:14:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="WrongCredentialsSignInPostSignUpDoneManually()[pri:0, instance:PrudentialCaseStudy.PrudentialCaseStudy.TestLabels@5792a0]" name="WrongCredentialsSignInPostSignUpDoneManually" duration-ms="5644" started-at="2018-10-02T05:14:08Z" finished-at="2018-10-02T05:14:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WrongCredentialsSignInPostSignUpDoneManually -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:PrudentialCaseStudy.PrudentialCaseStudy.TestLabels@5792a0]" name="tearDown" is-config="true" duration-ms="604" started-at="2018-10-02T05:14:14Z" finished-at="2018-10-02T05:14:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="Setup()[pri:0, instance:PrudentialCaseStudy.PrudentialCaseStudy.TestLabels@5792a0]" name="Setup" is-config="true" duration-ms="11227" started-at="2018-10-02T05:14:14Z" finished-at="2018-10-02T05:14:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="SignInPostSignUpDoneManually()[pri:1, instance:PrudentialCaseStudy.PrudentialCaseStudy.TestLabels@5792a0]" name="SignInPostSignUpDoneManually" duration-ms="7397" started-at="2018-10-02T05:14:25Z" finished-at="2018-10-02T05:14:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignInPostSignUpDoneManually -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:PrudentialCaseStudy.PrudentialCaseStudy.TestLabels@5792a0]" name="tearDown" is-config="true" duration-ms="596" started-at="2018-10-02T05:14:33Z" finished-at="2018-10-02T05:14:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="Setup()[pri:0, instance:PrudentialCaseStudy.PrudentialCaseStudy.TestLabels@5792a0]" name="Setup" is-config="true" duration-ms="13268" started-at="2018-10-02T05:14:33Z" finished-at="2018-10-02T05:14:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="invalidCity()[pri:2, instance:PrudentialCaseStudy.PrudentialCaseStudy.TestLabels@5792a0]" name="invalidCity" duration-ms="28569" started-at="2018-10-02T05:14:47Z" finished-at="2018-10-02T05:15:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidCity -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:PrudentialCaseStudy.PrudentialCaseStudy.TestLabels@5792a0]" name="tearDown" is-config="true" duration-ms="628" started-at="2018-10-02T05:15:15Z" finished-at="2018-10-02T05:15:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="Setup()[pri:0, instance:PrudentialCaseStudy.PrudentialCaseStudy.TestLabels@5792a0]" name="Setup" is-config="true" duration-ms="11090" started-at="2018-10-02T05:15:16Z" finished-at="2018-10-02T05:15:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="validCity()[pri:3, instance:PrudentialCaseStudy.PrudentialCaseStudy.TestLabels@5792a0]" name="validCity" duration-ms="7001" started-at="2018-10-02T05:15:27Z" finished-at="2018-10-02T05:15:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validCity -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:PrudentialCaseStudy.PrudentialCaseStudy.TestLabels@5792a0]" name="tearDown" is-config="true" duration-ms="612" started-at="2018-10-02T05:15:34Z" finished-at="2018-10-02T05:15:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="Setup()[pri:0, instance:PrudentialCaseStudy.PrudentialCaseStudy.TestLabels@5792a0]" name="Setup" is-config="true" duration-ms="9425" started-at="2018-10-02T05:15:35Z" finished-at="2018-10-02T05:15:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="verifyHomePage()[pri:4, instance:PrudentialCaseStudy.PrudentialCaseStudy.TestLabels@5792a0]" name="verifyHomePage" duration-ms="48199" started-at="2018-10-02T05:15:44Z" finished-at="2018-10-02T05:16:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:PrudentialCaseStudy.PrudentialCaseStudy.TestLabels@5792a0]" name="tearDown" is-config="true" duration-ms="641" started-at="2018-10-02T05:16:32Z" finished-at="2018-10-02T05:16:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- PrudentialCaseStudy.PrudentialCaseStudy.TestLabels -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
